@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-
-    <meta name="google-signin-client_id" content="980913783086-25h54nn7biq206lp9in1ju83tnhb45ra.apps.googleusercontent.com">
+    <meta name="google-signin-scope" content="profile email">
+    <meta name="google-signin-client_id" content="566123994782-31vjem5e6mb7ir4lf0ghgoupmd03iioc.apps.googleusercontent.com">
     <script src="https://apis.google.com/js/platform.js" async defer></script>
   </head>
   <body>
-  
+    <div class="g-signin2" data-onsuccess="onSignIn" data-theme="dark"></div>
     <script>
       function onSignIn(googleUser) {
         // Useful data for your client-side scripts:
@@ -23,7 +23,12 @@
         console.log("ID Token: " + id_token);
       };
     </script>
-    <div class="g-signin2" data-onsuccess="onSignIn"></div>
   </body>
 </html>
 
+
+
+<!-- Client ID
+566123994782-31vjem5e6mb7ir4lf0ghgoupmd03iioc.apps.googleusercontent.com
+Client Secret
+tlFXNbGsCosif3rCX_B38LNe -->
